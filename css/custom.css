@@ -133,7 +133,7 @@
 }
 
 /*..............common styles..............*/
-html, body { margin: 0; padding: 0; font-size:20px; color:#000; background: #fff;font-weight: normal; font-family: 'Euclid Circular A'; scroll-behavior: smooth; overflow-x: hidden;}
+html, body { margin: 0; padding: 0; font-size:20px; color:#000; background: #fff;font-weight: normal; font-family: 'Euclid Circular A';  overflow-x: hidden;}
 h1, h2, h3, h4, h5, h6 { margin:0 0 20px; padding:0;font-family: 'Canela';}
 h1{ font-size:110px;}
 h2{ font-size:80px;}
@@ -253,9 +253,12 @@ a.hamburger-menu {  display: none;}
 .grid-img-wrap .img-holder .img-wrap { text-align: right;}
 .grid-img-wrap .img-holder .img-wrap img {width: 100%; object-fit: cover; height: 700px;}
 .grid-img-slider .slick-list {padding-right: 200px;}
-.grid-img-slider .slick-slide {padding: 0 80px;}
+.grid-img-slider .slick-slide {padding: 0 20px;}
 /*.grid-img-wrap .grid-img-slider .slick-slide {  margin-top: 306px;}*/
 .grid-img-wrap .grid-img-slider .slick-slide.slick-current.slick-active {  margin-top: 0;}
+
+.grid-img-wrap .slick-dots li  button:before { color: #FFF; font-size: 16px; }
+.grid-img-wrap .slick-dots   { bottom: -60px; }
 
 .by-member-wrap { padding-top: 240px;}
 .by-member-wrap h2 {  color: #fff; text-align: center; margin-bottom: 112px;}
@@ -386,7 +389,8 @@ a.hamburger-menu {  display: none;}
 .error-page {  background: #eaeaea;  text-align: center;}
 /*.............. vission page  styles..............*/
 
-
+.cus-succ { border:1px solid #FFF; margin-top: 30px; padding: 8px; }
+.cus-succ p { color: #FFF; margin-bottom: 0; font-size: 16px; }
 
 
 /*Media Query css*/
@@ -626,6 +630,9 @@ a.hamburger-menu {  display: none;}
 	.take-tab-wrap .tab-main-box {margin-bottom: 0px;}
 	.grid-img-wrap .content-holder .wrap {padding-left: 0px;}
 	.how-it-work .border-overlay-wrap {display: block;}
+
+    .grid-img-wrap .slick-dots { bottom: -15px;}
+    .grid-img-slider .slick-slide { padding-left: 0; padding-right: 0; }
 }
 
 
